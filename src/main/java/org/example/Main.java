@@ -2,6 +2,7 @@ package org.example;
 
 
 import org.example.clase.Persona;
+import org.example.clase.TablaPronostico;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,18 +16,22 @@ public class Main {
 //        for (Persona persona: personas){
 //            System.out.println(persona);
 //        }
-        //ahora con matrices
-        Persona[][]matrix=new Persona[2][2];
+                                                       //ahora con matrices
+//        Persona[][]matrix=new Persona[2][2];
+//
+//        matrix[0][0]=new Persona("Juan   ",20);
+//        matrix[0][1]=new Persona("Pedro   ",21);
+//        matrix[1][0]=new Persona("Jose   ",27);
+//        matrix[1][1]=new Persona("Lucia  ",28);
+//
+//        for (Persona[] fila: matrix){
+//            for (Persona persona : fila){
+//                System.out.println(persona);
+//            }
 
-        matrix[0][0]=new Persona("Juan   ",20);
-        matrix[0][1]=new Persona("Pedro   ",21);
-        matrix[1][0]=new Persona("Jose   ",27);
-        matrix[1][1]=new Persona("Lucia  ",28);
+        //TABLA PRONOSTICO
 
-        for (Persona[] fila: matrix){
-            for (Persona persona : fila){
-                System.out.println(persona);
-            }
-        }
+      //  }
+        TablaPronostico tabla = new
     }
 }
